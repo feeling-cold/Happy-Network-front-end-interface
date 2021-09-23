@@ -143,21 +143,19 @@ a{
     border-radius: 7px;
     display: inline-block;
     background-color: rgb(250, 245, 245);
-    width: 840px;
+    width: 70%;
     height: 295px;
-    position: absolute;
+    position: relative;
 }
 .ttwobox{
-    border: 1px solid;
-    border-color: aliceblue;
     border-radius: 7px;
     display: inline-block;
-    background-color:  rgb(250, 245, 245);
-    width: 354px;
+    background-color:  #fff;
+    width: 28.5%;
     height: 295px;
     position: absolute;
     top: 330px;
-    right: 155px;
+    padding: 8px;
 }
 .tnav{
     text-align: center;
@@ -168,9 +166,9 @@ a{
 }
 .tnav2{
     text-align: center;
-    border-radius: 7px;
+    border-radius: 7px 7px 0 0;
     background-color: rgb(235, 230, 230);
-    width: 354px;
+    width: 100%;
     height:13%;
 }
 #titem{
@@ -249,6 +247,7 @@ a{
     background-color: rgb(74, 131, 206);
 }
 .item2{
+    width: 100%;
     border-radius: 5px;
     border: .5px dashed;
     padding: 7px 0;
@@ -262,8 +261,8 @@ a{
     background-color: #fff;
     position: absolute;
     height: 400px;
-    width: 840px;
-    border-radius: 7px;
+    width: 839px;
+    border-radius: 0 0 7px 7px;
 
 }
 #c1{
@@ -334,7 +333,7 @@ a{
     border: 1px soild;
     border-color: aliceblue;
     background-color: rgb(235, 230, 230);
-    border-radius: 5px;
+    border-radius: 5px 5px 0 0 ;
     width: 840px;
     height: 40px;
 }
@@ -378,12 +377,12 @@ a{
 .imgbox{
     position: absolute;
     top: 650px;
-    right: 160px;
+    right: 20px;
 }
 .imgbox2{
     position: absolute;
     top: 750px;
-    right: 160px;
+    right: 20px;
 }
 .card3{
     border: 1px solid;
@@ -394,7 +393,7 @@ a{
     background-color: #fff;
     position: absolute;
     top: 850px;
-    right: 160px;
+    right: 20px;
     display: inline-block;
 }
 .cardinfo{
@@ -428,7 +427,8 @@ a{
     position: absolute;
     background-color: rgb(235, 230, 230);
     height: 25px;
-    width: 330px;
+    width: 331.2px;
+    border-radius: 5px 5px 0 0;
     border: 1 px solid;
     border-color: aliceblue; 
 }
